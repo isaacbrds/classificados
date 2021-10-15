@@ -1,0 +1,24 @@
+<div class="card">
+  <div class="p-1 p-sm-4">
+    <div class="d-flex justify-content-center align-items-center pb-2 mb-4">
+              <%= form_with model: @ad do |form| %>
+              <div>
+                <%= form.label :title, class: 'form-label' %>
+                <%= form.text_field :title , class:" form-control"%>
+              </div>
+              <div>
+                <%= form.label :price, class: 'form-label' %>
+                <%= form.text_field :price, class:" form-control" %>
+              </div>
+              <div>
+                <%= form.label :description, class: 'form-label' %>
+                <%= form.text_area :description, class:" form-control" %>
+              </div>
+              <div>
+                
+                <%= form.submit "Cadastrar", class: "btn btn-primary"%>
+              </div>
+              <% end %>
+            </div>
+          </div>
+        </div>

@@ -1,0 +1,10 @@
+pt-BR:
+  sessions:
+    create: 
+      welcome: Bem vindo Darth Vader
+      invalid_credentials: Email ou Senha inválido
+    destroy:
+      session_finished: "Sessão Finalizada"
+  users:
+    create:
+      success: "Cadastro Realizado com Sucesso!"

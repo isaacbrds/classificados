@@ -1,0 +1,9 @@
+pt-BR:
+  helpers:
+    submit:
+      login: Login
+      user:
+        create: Cadastrar
+        update: Atualizar
+      ad:
+        submit: Enviar

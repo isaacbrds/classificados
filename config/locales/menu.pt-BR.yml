@@ -1,0 +1,6 @@
+pt-BR:
+  menu:
+    signup: Cadastrar-se
+    signin: Entrar
+    logout: Sair
+    new_ad: Novo Anuncio
